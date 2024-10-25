@@ -1,0 +1,87 @@
+.site-introduction {
+    .content-area {
+        article {
+            margin: 0 auto;
+            max-width: 800px;
+
+            .entry-header {
+                text-align: center;
+
+                .entry-title {
+
+                    color: #ffffff;
+                }
+            }
+
+            .entry-content {
+                color: #ffffff;
+                text-align: center
+            }
+            
+        }
+    };
+}
+
+.site-themes {
+    .content-area {
+        article {
+            margin: 0 auto;
+            max-width: 80rem;
+            padding: 1.125rem 0;
+
+            .entry-header {
+                text-align: center;
+
+                .entry-title {
+
+                    color: #000000;
+                }
+            }
+
+            .entry-content {
+                color: #ffffff;
+                text-align: center;
+
+                .grid-items {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-gap: 1.125rem;
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+
+                    .grid-item {
+                        border: 0.063rem dotted #000000;
+                        border-bottom: 0.063rem solid #000000;
+                        position: relative;
+                        padding: 1.125rem;
+
+                        .caption {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            background-color: rgba(0, 0, 0, 0.8); // Darker semi-transparent background for better readability
+                            text-align: center;
+                            padding: 0.5rem;
+
+                            .entry-title {
+                                margin: 0;
+                                padding: 0;
+
+                                a {
+                                    color: #ffffff;
+                                    text-decoration: none;
+                                }
+                            }
+                            span {
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    };
+}

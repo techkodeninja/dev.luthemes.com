@@ -1,0 +1,52 @@
+.content-area {
+    .grid-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1.125rem;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        .grid-item {
+            position: relative; // Add relative positioning to grid-item for absolute positioning inside
+
+            article {
+
+                &.collection {
+
+                    &.themes {
+                        border: 0.063rem dotted  #000000;
+                        border-bottom: 0.063rem solid #000000;
+                        overflow: hidden; // Ensure content doesn't overflow
+                        padding: 1.125rem;
+
+                        .caption {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            background-color: rgba(0, 0, 0, 0.8); // Darker semi-transparent background for better readability
+                            text-align: center;
+                            padding: 0.5rem;
+
+                            .entry-title {
+                                margin: 0;
+                                padding: 0;
+
+                                a {
+                                    color: white;
+                                    text-decoration: none;
+                                }
+                            }
+
+                            span {
+                                color: white;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

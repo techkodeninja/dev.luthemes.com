@@ -1,0 +1,23 @@
+{
+    "name": "techkodeninja/luthemes.com",
+    "description": "Luthemes.com is a personal portfolio powered by the Novaris Content Management System (CMS). It offers a flexible architecture designed for showcasing dynamic content, making it perfect for personal projects and creative work displays.",
+    "license": "GPL-2.0-or-later",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Benjamin Lu"
+        }
+    ],
+	"autoload"    : {
+		"psr-4" : {
+			"Luthemes\\" : "app"
+		},
+        "files": [
+            "app/functions-general.php",
+            "app/functions-widgets.php"
+        ]
+	},
+    "require": {
+        "novaris-dev/framework": "dev-develop"
+    }
+}

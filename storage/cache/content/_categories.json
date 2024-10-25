@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "expires": 0,
+        "created": 1729739421
+    },
+    "data": {
+        "general.md": {
+            "title": "General",
+            "visibility": "public"
+        },
+        "index.md": {
+            "title": "Categories",
+            "visibility": "public"
+        },
+        "uncategorized.md": {
+            "title": "Uncategorized",
+            "visibility": "public"
+        }
+    }
+}

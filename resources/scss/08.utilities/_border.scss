@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff; /* Background color for the entire table */
+
+    th, td {
+        padding: 12px 15px;
+        border-bottom: 1px solid #dddddd; /* Border bottom for th and td */
+    }
+    
+    th {
+        background-color: #ffffff; /* White background for th */
+        font-weight: bold;
+        text-align: left; /* Align th to the left */
+    }
+    
+    td {
+        text-align: right; /* Align td to the right */
+    }
+
+    
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+}
+

@@ -1,0 +1,45 @@
+.site-header {
+    background: #000000;
+    padding: 0.5rem;
+
+
+	.branding-navigation {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 1.125rem;
+
+		.site-branding {
+			display: flex;
+			align-items: center;
+	
+			.sep {
+				font-size: 1.125rem;
+				margin-left: 0.75rem;
+				margin-right: 0.75rem;
+			}
+	
+			.site-title,
+			.site-description {
+				margin: 0;
+				padding: 0;
+			}
+	
+			.site-title {
+				font-size: 1.75rem;
+				margin-left: 1rem;
+
+				a {
+					border-bottom: none;
+					color: #ffffff;
+					text-decoration: none;
+				}
+			}
+	
+			.site-description {
+				color: #ffffff;
+				font-size: 15px;
+			}
+		}
+	}
+}
